@@ -2,7 +2,7 @@
     "name": "burnbright/silverstripe-widget-googlemap",
     "description": "A simple, non-bloated, google maps SilverStripe widget.",
     "type": "silverstripe-module",
-    "keywords" : "map,google",
+    "keywords" : ["map","google"],
     "require": {
         "silverstripe/framework": "3.1.*",
         "silverstripe/cms": "3.1.*"
