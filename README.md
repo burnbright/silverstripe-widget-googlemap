@@ -17,7 +17,7 @@ For example, to style all maps grey, pan left 200px, and add a custom marker:
 ```javascript
 (function($) {
 	$(document).ready(function() {
-		if(GoogleMapWidget){ //if widget is present
+		if(typeof GoogleMapWidget != 'undefined'){ //if widget is present
 			var style = [
 				{
 					"stylers": [
